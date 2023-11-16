@@ -26,13 +26,13 @@ import {
 const FirebaseContext = createContext(null);
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBlfOdfEQ4zbEtEyCvtC99B5m2tyLhA1fc",
-  authDomain: "bracketmaker-db3ef.firebaseapp.com",
-  projectId: "bracketmaker-db3ef",
-  storageBucket: "bracketmaker-db3ef.appspot.com",
-  messagingSenderId: "468405030972",
-  appId: "1:468405030972:web:201324f3d987202668b339",
-  measurementId: "G-M64K7RS7DX"
+  apiKey: "AIzaSyBB2RQPCd1TMInuXv-OSujET5_xr0ZDnSc",
+  authDomain: "bracketmaker-abe4d.firebaseapp.com",
+  projectId: "bracketmaker-abe4d",
+  storageBucket: "bracketmaker-abe4d.appspot.com",
+  messagingSenderId: "816514866262",
+  appId: "1:816514866262:web:c93bbd3448588cd3266ff7",
+  measurementId: "G-WGRK87WB89"
 };
 
 export const useFirebase = () => useContext(FirebaseContext);
